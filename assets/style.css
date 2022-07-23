@@ -343,4 +343,7 @@ a {
 	.items-skill{
 		width: 45% !important;
 	}
+	.flexed{
+		flex-direction: column;
+	}
 	}
