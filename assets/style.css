@@ -29,11 +29,23 @@ body {
 .move {
 	color: #5918df;
 }
-
+/* got to top  */
+#Contact{
+position: relative;
+}
+.go-top{
+	color: white;
+	background-color: #5918df;
+	position: absolute;
+	padding: 8px;
+	border-radius: 5px;
+	right: 20px;
+	top: -15px;
+}
+/* end go to top  */
 /* start navbar */
 
 nav {
-	height: 70px;
 	background-color: white;
 	box-shadow: 0 1px 5px rgb(15 13 21 / 7%);
 }
@@ -311,7 +323,7 @@ a {
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#001a606f', endColorstr='#e8154159', GradientType=0);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
 	.hero-section{
 		margin-top: 50px;
 	}
